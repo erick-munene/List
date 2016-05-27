@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         String[] foods = {"potato", "beans", "mango", "tomamo"};
         ListAdapter listAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, foods);
         ListView listView = (ListView) findViewById(R.id.listView);
-        ListView listView1.setAdapter(listAdapter);
+        ListView listView1.(listAdapter);
     }
 
 
